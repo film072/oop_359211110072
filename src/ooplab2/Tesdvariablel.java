@@ -14,7 +14,6 @@ public class TestVeriable {
         System.out.println("i*j"+(i*j));
         System.out.println("i/j"+(i/j));
 
-        //
         double v = 50.5;
         System.out.println("v ="+v);
 
@@ -26,7 +25,7 @@ public class TestVeriable {
         char c = 'x';
         System.out.println(c);
 
-        //String
+//      String
         String s = "Hello,world";
         System.out.println(s);
         String name = "I'm smild";
@@ -38,7 +37,7 @@ public class TestVeriable {
         System.out.println(msg.length());
         System.out.println(msg.replace('o','g'));
 
-        //Boolean
+//      Boolean
         boolean b = true;
         boolean b1 = false;
         System.out.println(b+" "+b1);
@@ -51,7 +50,8 @@ public class TestVeriable {
         int x = ++number;
 
         String n = "20.20";
-        // int age = Integer.parseInt(n);
+
+//      int age = Integer.parseInt(n);
         double age = Double.parseDouble(n);
         System.out.println(age);
 
