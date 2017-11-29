@@ -1,6 +1,6 @@
-package ooplab2;
+package ooplab3;
 
-public class Tesdvariablel {
+public class testcondition {
     public static void main(String[] args) {
         // if
         int x = 10, y = 20;
