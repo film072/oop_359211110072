@@ -3,35 +3,56 @@ package ooplab5;
 
 public class TestArray {
     public static void main (String[] args){
-        //Array
-        int number[];
-        number = new int[5];
-        System.out.println(number[0]);
-        System.out.println(number[1]);
-        System.out.println(number[2]);
-        System.out.println(number[3]);
-        System.out.println(number[4]);
-        number[1] = 10;
-        System.out.println(number[1]);
-        number[4] = 20;
-        number[3] = number[1] + number[4];
-        System.out.println(number[3]);
-        System.out.println(number[4]);
+        //     Integer
+        int i;
+        i = 10;
+        System.out.println("i = "+1);
+        int j =20;
+        System.out.println("j ="+j);
+        System.out.println("i+j"+(i+j));
+        System.out.println("i*j"+(i*j));
+        System.out.println("i/j"+(i/j));
 
-        int total = o;
-        for (int i =0;i<number.length;i++) {
+        //
+        double v = 50.5;
+        System.out.println("v ="+v);
 
-            for (int i = 0; i < number.length; i++)
-                System.out.println("number[" + i + "]: " + number[i]);
-            total += number[i]; //total = total+number[i]
-        }//for
-        System.out.println("total in array is "+total);
+        i = (int) v;
+        System.out.println(i);
+        System.out.println(v);
 
+//      charrector
+        char c = 'x';
+        System.out.println(c);
 
-          double value [] = new double[5];
-          for (int i =0;<value.length;i++)
-              System.out.println(msg[i]);
+        //String
+        String s = "Hello,world";
+        System.out.println(s);
+        String name = "I'm smild";
+        System.out.println(s+" "+name);
+        String msg = s.concat(" "+name);
+        System.out.println(msg);
+        System.out.println(msg.toUpperCase());
+        System.out.println(msg.toLowerCase());
+        System.out.println(msg.length());
+        System.out.println(msg.replace('o','g'));
 
+        //Boolean
+        boolean b = true;
+        boolean b1 = false;
+        System.out.println(b+" "+b1);
+
+//        Shortcut Operator
+        int number =10;
+        System.out.println(number);
+        number+=1; // number = number+1;
+        number-=5; // number = number-5; 6
+        int x = ++number;
+
+        String n = "20.20";
+        // int age = Integer.parseInt(n);
+        double age = Double.parseDouble(n);
+        System.out.println(age);
 
 
 

@@ -1,13 +1,11 @@
 package OOPlab2;
 
-
 import jdk.internal.util.xml.impl.Input;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
-
-public class TestInput {
+public class TestInpun {
     public static void main(String[] args) throws IOException{
 //        BufferedReader
         BufferedReader reader = new BufferedReader(

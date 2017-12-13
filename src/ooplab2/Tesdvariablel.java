@@ -2,24 +2,56 @@ package ooplab2;
 
 public class Tesdvariablel {
     public static void main(String[] args) {
-        // if
-        int x = 10, y = 20;
-        if (x > y)
-            System.out.println("x less than y");
-        System.out.println("OOP");
-//  if-else
-        x = 30;
-        if (x < y)
-            System.out.println("x less than y");
-        else
-            System.out.println("x more than y");
-//  if-else-if
-        if (x < 30)
-            System.out.println("x less than y");
-        else if (x < 30)
-            System.out.println("x more than 30");
-        else
-            System.out.println("x equal 30");
+        //     Integer
+        int i;
+        i = 10;
+        System.out.println("i = "+1);
+        int j =20;
+        System.out.println("j ="+j);
+        System.out.println("i+j"+(i+j));
+        System.out.println("i*j"+(i*j));
+        System.out.println("i/j"+(i/j));
+
+        //
+        double v = 50.5;
+        System.out.println("v ="+v);
+
+        i = (int) v;
+        System.out.println(i);
+        System.out.println(v);
+
+//      charrector
+        char c = 'x';
+        System.out.println(c);
+
+        //String
+        String s = "Hello,world";
+        System.out.println(s);
+        String name = "I'm smild";
+        System.out.println(s+" "+name);
+        String msg = s.concat(" "+name);
+        System.out.println(msg);
+        System.out.println(msg.toUpperCase());
+        System.out.println(msg.toLowerCase());
+        System.out.println(msg.length());
+        System.out.println(msg.replace('o','g'));
+
+        //Boolean
+        boolean b = true;
+        boolean b1 = false;
+        System.out.println(b+" "+b1);
+
+//        Shortcut Operator
+        int number =10;
+        System.out.println(number);
+        number+=1; // number = number+1;
+        number-=5; // number = number-5; 6
+        int x = ++number;
+
+        String n = "20.20";
+        // int age = Integer.parseInt(n);
+        double age = Double.parseDouble(n);
+        System.out.println(age);
 
     }//main
 }//class
